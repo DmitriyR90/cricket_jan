@@ -90,7 +90,8 @@ a {
   color: var(--white-color);
 
   top: 38.4%;
-  left: 4%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 /* .rights {
@@ -216,15 +217,13 @@ a {
   .logo {
     display: block;
     width: 48%;
-    top: 0;
+    top: 2.66%;
     left: 50%;
     transform: translate(-50%);
-    margin-top: 4%;
   }
   .main-text {
     width: 100%;
-    left: 0;
-    top: 19.4%;
+    top: 11.7%;
 
     text-align: center;
   }
