@@ -1,0 +1,39 @@
+/* Кастомизация полосы прокрутки */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Трек полосы прокрутки */
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    180deg,
+    #0b0033,
+    #330000
+  ); /* Темно-синий к темно-красному */
+  border-radius: 10px;
+}
+
+/* Ползунок */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #007aff,
+    #ff3d3d
+  ); /* Синий к красному с неоновым эффектом */
+  border-radius: 10px;
+  border: 2px solid #000; /* Черная граница для контраста */
+}
+
+/* Ховер на ползунке */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    45deg,
+    #33ccff,
+    #ff6666
+  ); /* Более яркие акценты при наведении */
+}
+
+/* Для Firefox */
+scrollbar-color: #007aff #330000;
+scrollbar-width: thin;
